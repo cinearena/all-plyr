@@ -51,7 +51,7 @@
     document.addEventListener("DOMContentLoaded", function () {
 
       const params = new URLSearchParams(window.location.search);
-      const streamUrl = params.get("url") || "https://rumble.com/live-hls-dvr/6z4aec/playlist.m3u8?level=1";
+      const streamUrl = params.get("url") || "";
 
       const video = document.getElementById("player");
       const source = streamUrl;
